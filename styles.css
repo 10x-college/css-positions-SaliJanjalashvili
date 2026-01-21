@@ -16,6 +16,7 @@ header {
   height: 107px;
   width: 100%;
   position: relative;
+  z-index: 1;
 }
 
 .logo {
@@ -46,6 +47,10 @@ header .btn {
   right: 160px;
   transform: translateY(-50%);
   background-color: #13183F;
+}
+
+header .btn:hover {
+  background-color: #666CA3;
 }
 
 /* MAIN */
@@ -96,7 +101,11 @@ main {
 }
 
 .hero-content .btn {
-  background-color: #13183F;
+  background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+}
+
+.hero-content .btn:hover {
+  background: linear-gradient(180deg, #FFB7A4 0%, #F895D3 100%);
 }
 
 .hero-content-image {
@@ -242,6 +251,10 @@ main {
   background-color: transparent;
 }
 
+.features-card-btn:hover {
+  color: #FFA7C3;
+}
+
 /* FOOTER */
 
 footer {
@@ -257,4 +270,8 @@ footer .btn {
   right: 160px;
   transform: translateY(-50%);
   background: linear-gradient(180deg, #4851FF 0%, #F02AA6 100%);
+}
+
+footer .btn:hover {
+  background: linear-gradient(180deg, #A4A8FF 0%, #F895D3 100%);
 }
