@@ -1,0 +1,64 @@
+/* RESET STYLES */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Plus Jakarta Sans ', sans-serif;
+  background: linear-gradient(180deg, #FFFFFF 0%, #F0F1FF 100%) no-repeat;
+}
+
+/* HEADER  */
+
+header {
+  height: 107px;
+  width: 100%;
+  position: relative;
+}
+
+.logo {
+  width: 111px;
+  position: absolute;
+  top: 50%;
+  left: 160px;
+  transform: translateY(-50%);
+}
+
+.btn {
+  width: 168px;
+  height: 59px;
+  padding: 16px 32px;
+  border-radius: 16px;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 700;
+  position: absolute;
+  top: 50%;
+  right: 160px;
+  transform: translateY(-50%);
+  text-align: center;
+  line-height: 27px;
+}
+
+header .btn {
+  background-color: #13183F;
+}
+
+/* MAIN */
+
+
+
+/* FOOTER */
+
+footer {
+  height: 107px;
+  width: 100%;
+  background-color: #13183F;
+  position: relative;
+}
+
+footer .btn {
+  background: linear-gradient(180deg, #4851FF 0%, #F02AA6 100%);
+}
