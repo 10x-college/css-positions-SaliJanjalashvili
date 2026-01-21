@@ -237,6 +237,9 @@ main {
   font-size: 18px;
   font-weight: 700;
   color: #F74780;
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
 }
 
 /* FOOTER */
